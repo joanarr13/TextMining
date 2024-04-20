@@ -12,6 +12,12 @@ As mentioned above, the project was divided into two main tasks:
 
 This project also had a competitive side, since the team had to submit the results of the machine-learning model into a Kaggle competition for posterior evaluation [Kaggle Competition](https://www.kaggle.com/competitions/decoding-emotion-from-music).
 
+## Improvements
+
+Although our study was able to reach enlightening conclusions, some further recommendations and improvements could be taking into account in the future: 
+- **Expansion of Musical Genres**: the current dataset only includes a limited amount of musical genres (7). However, in music streaming services such as Spotify there are more than 1300 different genres and subgenres that could reveal further insights and patterns in the data;
+- **Addition of Non-English Lyrics**: the used data only contained lyrics which were in English; hence, this could be slightly restricting in terms of conclusions on which keywords best define each genre.
+
 ## Dataset Details
 The dataset used was divided into train (used to build the machine-learning models) and testing sets (goal is to predict the musical genre of the song lyrics and access if the model is performing well). 
 
