@@ -7,10 +7,10 @@ The aim of the project was to use the power of text mining techniques to discove
 
 ## Project Objective
 As mentioned above, the project was divided into two main tasks:
-- **Genre Identification**: training machine learning models on a dataset containing song lyrics and their corresponding genres to accurately predict the song genre on unknown data.
+- **Genre Identification**: training machine-learning models on a dataset containing song lyrics and their corresponding genres to accurately predict the song genre on unknown data.
 - **Sentiment Analysis**: explore the emotional undertones of the songs of the dataset, in order to try to identify patterns (for example, predominant sentiments) in specific song genres. This part was more flexible and was guided with open-ended questions.
 
-This project also had a competitive side, since the team had to submit the results of the machine-learning model into a Kaggle competition for posterior evaluation.
+This project also had a competitive side, since the team had to submit the results of the machine-learning model into a Kaggle competition for posterior evaluation [Kaggle Competition](https://www.kaggle.com/competitions/decoding-emotion-from-music).
 
 ## Dataset Details
 The dataset used was divided into train (used to build the machine-learning models) and testing sets (goal is to predict the musical genre of the song lyrics and access if the model is performing well). 
@@ -23,6 +23,19 @@ The dataset used was divided into train (used to build the machine-learning mode
 - **features**: includes names of collaborating artists (will be EMPTY otherwise)
 - **lyrics**: lyrics of the song - include tags for specific sections 
 - **tag**: main musical  genre of the song
+
+## Repository Description
+This repository contains all the final files created during the development of our project. Hence, the following list contains a short description of how this repository is organized and what each file contains:
+- [README](README.md): file which contains all the basic information on the project (objectives, motivations, features and improvements);
+- [Project Report](Text_Mining_Group03_Report.pdf): this is a pdf file of the project report where all the steps of development of the project; reasoning behind every decision and key findings/achievements are summarized;
+- [Vocabulary Folder](vocabulary): this folder contains several sets of words that were selected through slightly different pre-processing techniques;
+- [Results Output](Group03_Version46.csv): csv file which contains the final results of the model - which were then submitted into the kaggle competition (Group 3) [Kaggle Competition](https://www.kaggle.com/competitions/decoding-emotion-from-music);
+- [Preprocessing of Data](Preprocessing.ipynb): jupyter notebook which contains the whole EDA process for the data of this project;
+- [Log Ratio Analysis](Log_Ratio_Analysis.ipynb): jupyter notebook which contains a Log-Ratio analysis which was used as a way to reduce the size of the dataset and find a set of most important words for each genre - vocabulary;
+- [Modeling](Modeling.ipynb): jupyter notebook which includes all of the modelling phase of the project;
+- [Sentiment Analysis](Sentiment_analysis.ipynb): jupyter notebook that has the whole process of the sentiment analysis of the project (pre-processing, modelling, visualization of results);
+- [Functions](functions.py): python file that contains functions crucial for the development of the project but that would be more beneficial in terms of organization to be on a separate file and then be imported when needed;
+
 
 ## Project Developed by:
 - Catarina Oliveira | [LinkedIn](https://www.linkedin.com/in/cjoliveira96/)
